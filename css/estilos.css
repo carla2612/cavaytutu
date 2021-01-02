@@ -1,0 +1,32 @@
+
+h1{
+  font-family: "Helvetica"
+  color:#FFFFFF;
+
+
+
+  background-color:red;
+
+  text-decoration: underline;
+
+
+
+}
+h2{
+  color: white;
+  font-family: sans-serif;
+
+  background-color:#0000ff
+
+}
+
+p{
+  background-color: #008f39;
+
+  font-weight: bold;
+  font-size: 16px
+
+
+
+
+}

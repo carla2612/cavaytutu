@@ -1,0 +1,45 @@
+body{
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: grey;
+  margin: 0%;
+  padding: 0%
+
+
+
+
+
+
+}
+.titulo{
+  color: black;
+  font-weight: bold;
+  width: 50%;
+  font-size: 50%;
+
+}
+.parrafo1{
+  font-style: oblique;
+  font-weight: bold;
+  width: 50%;
+
+
+}
+.parrafo2{
+  width: 50%
+
+}
+.footer{
+  font-size: 10px;
+
+}
+img{
+  float: right;
+  width: 50%;
+  height: :25%;
+  margin: 0%
+  padding:0%
+}
+.foto{
+
+}

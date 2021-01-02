@@ -1,0 +1,28 @@
+body{
+font-family: Helvetica
+
+}
+
+
+
+h1{
+  color: red;
+  background-color: blue;
+
+
+
+}
+p{
+  font-size: 16px
+
+}
+
+.Titulo{
+  color:green;
+  background-color: white;
+
+
+}
+#Subtitulo{
+  font-style: italic;
+}

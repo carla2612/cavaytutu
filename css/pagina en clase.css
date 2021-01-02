@@ -1,0 +1,74 @@
+*{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+
+}
+
+body{
+  margin: 0;
+  padding: 0;
+
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15vh;
+  background-color: pink;
+
+}
+.logo{
+  width: 20%;
+  height: 100%;
+
+}
+.logo img{
+  white: 100%;
+  height: 100%;
+
+}
+.titulo_celu{
+  white: 60%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.titulo_celu h1{
+  font-size: 3cm;
+  height: 20%;
+  margin:0%;
+}
+.titulo_celu h2{
+  font-size: 2cm;
+  height: 20%;
+  margin:0%;
+
+}
+.burger{
+  width: 20%;
+  text-align: center;
+  height: 100%
+}
+
+.burger i{
+  font-size: 3cm;
+
+}
+main {
+  display: flex;
+  flex-direction: row;
+
+}
+.galeria article{
+  width: 100%;
+  height: 30%;
+
+}
+.galeria article img{
+  width: 100%;
+  height: 100%;
+
+}
