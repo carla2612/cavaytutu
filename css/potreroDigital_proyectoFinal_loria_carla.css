@@ -1,0 +1,233 @@
+*{
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #2471A3;
+
+  padding: 0;
+  margin: 0;
+
+  }
+header{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
+
+
+}
+.logo{
+  width: 20%;
+  height: 100%;
+
+}
+.logo img{
+  white: 100%;
+  height: 100%;
+
+
+}
+
+nav{
+  background-color:  #3498DB;
+  width: 80%;
+  height:100%
+
+
+}
+a{
+  padding: 20px;
+  color: white;
+
+}
+
+.navegador{
+
+  padding: 1%;
+  font-size:150%;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+.navegador a{
+  width: 100%;
+  height: 80%;
+
+}
+main{
+  background-color: #76D7C4;
+  height: 100%;
+  width: 100%;
+
+
+
+}
+.titulos{
+  width: 100%;
+  height: 20%;
+}
+.titulos h1{
+  font-size: 50px;
+  text-align: center;
+
+
+}
+.titulos h2{
+  font-size: 35px;
+  text-align: center;
+}
+.titulos p{
+  font-size: 25px;
+  font-style: oblique;
+
+
+}
+h3{
+  font-size: 40px;
+  text-align: center;
+}
+.galeria{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+width: 100%
+}
+.galeria article{
+  width: 100%;
+  height: 30%;
+
+}
+.galeria article img{
+
+  width: 100%;
+  height: 100%
+}
+footer{
+  background-color: #8E44AD;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 15vh;
+  display: flex;
+
+
+
+}
+.pie{
+
+  padding: 3%;
+  font-size: 20px;
+
+
+
+
+}
+@media (min-width: 700px) {
+
+  .logo{
+    width:40%;
+    height: 100%;
+
+
+
+    }
+    .logo img{
+      width: 100%;
+      height: 100%;
+
+
+    }
+    .titulos{
+      width: 100%;
+      height: 20%;
+    }
+    .titulos h1{
+      font-size: 60px;
+      text-align: center;
+
+
+    }
+    .titulos h2{
+      font-size: 40px;
+      text-align: center;
+    }
+    .titulos p{
+      font-size: 30px;
+
+    }
+    h3{
+      font-size: 40px;
+      text-align: center;
+      margin: 5% 5%;
+      padding: 1% 1%;
+    }
+    .galeria{
+      width: 100%;
+
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: center;
+
+
+    }
+    .galeria article{
+
+      height: 80%;
+      width: 40%;
+      margin: 4% 4%;
+      height: 400px;
+
+
+
+
+
+    }
+    .galeria article img{
+
+      width: 100%;
+      margin: 1% 1%;
+      height: 50vh;
+
+
+    }
+    footer{
+      margin-top: 1%;
+      height: 10vh;
+
+    }
+    .pie{
+      padding: 5%;
+      font-size: 40px;
+
+
+    }
+
+
+
+
+
+  @media (min-width: 1100px) {
+    .logo{
+      width:50%;
+      height: 100%;
+
+      }
+      .logo img{
+        width: 100%;
+        height: 100%;
+
+     }
+     .pie{
+       padding: 5%;
+       font-size: 40px;
+
+
+
+     }
